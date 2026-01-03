@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style.css">
+        <title>articles</title>
+    </head>
+    <body>
+        <iframe width="560" height="200" src="../index.html"></iframe>
+        <br>
+        <button onclick="location.href='/home-work-2/index.html'">Go to Home Page</button>
+        <button onclick="location.href='/home-work-2/pages/gallery.html'">Go to Gallery</button>
+        <form>
+            <fieldset>
+                <legend>Private Information</legend>
+                <div>
+                    <label for="firstname">First Name</label>
+                    <input type="text" id="firstname" name="name">
+                    <br>
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname" name="lastname">
+                    <br>
+                    <p class="gender">Gender</p>
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                    <br>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Choose Your Pallet Truck</legend>
+                <div>
+                    <label for="pallettruck">Pallet Truck</label>
+                    <select id="pallettruck" name="pallettruck">
+                        <option value="none">None</option>
+                        <option value="Pallet Truck_Studio_01">Pallet Truck_Studio_01</option>
+                        <option value="Pallet Truck_Studio_02">Pallet Truck_Studio_02</option>
+                        <option value="Pallet Truck_Studio_03">Pallet Truck_Studio_03</option>
+                        <option value="Pallet Truck_Studio_04">Pallet Truck_Studio_04</option>
+                        <option value="Pallet Truck_Studio_05">Pallet Truck_Studio_05</option>
+                        <option value="Pallet Truck_Studio_06">Pallet Truck_Studio_06</option>
+                    </select>
+                </div>
+            </fieldset>
+            <input type="submit" value="Submit">
+</form>
+    </body>
+</html>
